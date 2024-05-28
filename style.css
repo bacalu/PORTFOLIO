@@ -1,0 +1,450 @@
+*{
+    margin:0;
+    padding:0;
+    @font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #990F02;
+}
+.background-section{
+    width: 100%;
+    height: 100vh;
+    background-color: #990F02;
+    background-image: url(img/paginainceput.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner{
+    width: 85%;
+    margin-left: 680px;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #F9E4BC;
+    font-family: "Glacial Indifference";
+}
+.navbar ul li::after{
+    content: '';
+    height: 2px;
+    width: 0;
+    background: #F9E4BC;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.banner.slide-down{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    animation: slidedown .4s forwards;
+}
+@keyframes slidedown {
+    from{
+        top: -250px;
+    }
+    to{
+        top: 0;
+        box-shadow: 0 2px 8px 0 rgba(0,0,0,.2);
+    }
+
+}
+.skills{
+    position: relative;
+    margin-top: 700px;
+    margin-left: 100px;
+    color: #F9E4BC;
+    font-family: "Glacial Indifference";
+    font-size: 16px;
+}
+.element-stilizat{
+    position: relative;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #F9E4BC;
+    font-family: "Glacial Indifference"
+}
+.navbar1{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 10px;
+    width:100%;
+    padding: 35 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar1 ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar1 ul li a{
+    text-decoration: none;
+    color: #F9E4BC;
+    font-family: "Glacial Indifference";
+}
+.navbar1 ul li::after{
+    content: '';
+    height: 2px;
+    width: 0;
+    background: #F9E4BC;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.navbar1 ul li:hover::after{
+    width: 100%;
+}
+.exp{
+    position: relative;
+    color: #F9E4BC;
+    font-family: 'Coconat';
+    src: url(Coconat-BoldExt.otf); format('otf')
+    font-weight: bold;
+    font-style: normal;
+    font-size: 22px;
+}
+.work{
+    position: relative;
+    margin-left: 100px;
+    color: #60000e;
+    font-family: "Glacial Indifference";
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: 'Coconat';
+    src: url(Coconat-BoldExt.otf); format('otf')
+    font-weight: bold;
+    font-style: normal;
+}
+.home{
+    width: 50px;
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    color: #60000e;
+    font-family: "Glacial Indifference";
+    font-size: 16px;
+}
+.archi{
+    width: 120px;
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    color: #60000e;
+    font-family: "Glacial Indifference";
+    font-size: 16px;
+}
+.design{
+    width: 120px;
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    color: #60000e;
+    font-family: "Glacial Indifference";
+    font-size: 16px;
+}
+.photos{
+    width: 50px;
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    color: #60000e;
+    font-family: "Glacial Indifference";
+    font-size: 16px;
+}
+.content{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top:75px;
+    left: 10px;
+}
+.paragraf{
+    position: absolute;
+    top: 65px;
+    left:828px;
+    width: 510px;
+    height: 200px;
+    margin-bottom: 3px;
+    font-size: 15px;
+    padding: 35px;
+    text-align: center;
+    align-content: center;
+}
+.paragraf-titlu{
+    color: #F9E4BC;
+    font-family: "Glacial Indifference";
+}
+.paragraf-text{
+    color: #F9E4BC;
+    font-family: "Glacial Indifference";
+}
+.paragraf-text2{
+    position: absolute;
+    top: 608px;
+    left:828px;
+    width: 510px;
+    height: 200px;
+    margin-bottom: 3px;
+    font-size: 15px;
+    padding: 35px;
+    text-align: center;
+    align-content: center;
+    color: #F9E4BC;
+    font-family: "Glacial Indifference";
+}
+.poza0{
+    position: absolute;
+    top: 95px;
+    left:100px;
+    width: 40%;
+    height:800px;
+}
+.poza1{
+    position: absolute;
+    top: 95px;
+    left:800px;
+    width: 40%;
+    height:500px;
+}
+.poza2{
+    position: absolute;
+    top: 602px;
+    left:800px;
+    width: 40%;
+    height:500px;
+}
+.poza3{
+    position: absolute;
+    top: 1602px;
+    left:100px;
+    width: 40%;
+    height:800px;
+}
+.poza4{
+    position: absolute;
+    top: 1110px;
+    left:800px;
+    width: 40%;
+    height:500px;
+}
+.poza5{
+    position: absolute;
+    top: 2500px;
+    left:400px;
+    width: 50%;
+    height:850px;
+}
+.poza6{
+    position: absolute;
+    top: 3200px;
+    left:100px;
+    width: 28%;
+    height:500px;
+}
+.poza7{
+    position: absolute;
+    top: 3200px;
+    left:525px;
+    width: 28%;
+    height:500px;
+}
+.poza8{
+    position: absolute;
+    top: 3200px;
+    left:950px;
+    width: 28%;
+    height:500px;
+}
+.poza9{
+    position: absolute;
+    top: 4000px;
+    left:1000px;
+    width: 28%;
+    height:500px;
+}.poza10{
+    position: absolute;
+    top: 3800px;
+    left:100px;
+    width: 28%;
+    height:500px;
+}.poza11{
+    position: absolute;
+    top: 4350px;
+    left:100px;
+    bottom: 200px;
+    width: 28%;
+    height:500px;
+}
+.gd0{
+    position: absolute;
+    top: 95px;
+    left:100px;
+    width: 44%;
+    height:820px;
+}
+.gd1{
+    position: absolute;
+    top: 1400px;
+    left:880px;
+    width: 30%;
+    height:400px;
+}
+.gd7{
+    position: absolute;
+    top: 1820px;
+    left:880px;
+    width: 30%;
+    height:400px;
+}
+.gd2{
+    position: absolute;
+    top: 500px;
+    left:800px;
+    width: 40%;
+    height:820px;
+}
+.gd3{
+    position: absolute;
+    top: 1400px;
+    left:200px;
+    width: 50%;
+    height:1200px;
+}
+.gd3{
+    position: absolute;
+    top: 1400px;
+    left:100px;
+    width: 40%;
+    height:820px;
+}.gd4{
+    position: absolute;
+    top: 2300px;
+    left:730px;
+    width: 40%;
+    height:820px;
+}.gd5{
+    position: absolute;
+    top: 3180px;
+    left:60px;
+    width: 30%;
+    height:720px;
+}.gd6{
+    position: absolute;
+    top: 3180px;
+    left:520px;
+    width: 30%;
+    height:720px;
+}
+.gd9{
+    position: absolute;
+    top: 3970px;
+    left:60px;
+    width: 30%;
+    height:400px;
+}
+.gd10{
+    position: absolute;
+    top: 3970px;
+    left:980px;
+    width: 30%;
+    height:400px;
+}
+.gd11{
+    position: absolute;
+    top: 3970px;
+    left:520px;
+    width: 30%;
+    height:400px;
+}
+.gd8{
+    position: absolute;
+    top: 4440px;
+    left:520px;
+    width: 50%;
+    height:520px;
+}
+*!--
+.progress{
+    width: 120px;
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    color: #F9E4BC;
+    font-family: "Glacial Indifference";
+    font-size: 20px;
+}
+.leftside .menu{
+    height: 100vh;
+    width: 100%;
+}
+.leftside{
+    width: 80%;
+}
+.CONCEPTUAL{
+    position: relative;
+    left:100px;
+    color: #F9E4BC;
+    font-family: 'Coconat';
+    src: url(Coconat-BoldExt.otf); format('otf')
+    font-weight: bold;
+    font-style: normal;
+}
+.c1{
+    position: absolute;
+    top: 605px;
+    left:100px;
+}
+.menu{
+    position: relative;
+    width: 220px;
+    margin: 100px 1000px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #F9E4BC;
+    font-family: "Glacial Indifference";
+    font-size: 20px;
+}
+.menu ul li{
+    display: flex;
+    background: rgba(255, 255, 255, .1);
+    padding: 10px 20px;
+    margin: 25px 0;
+}
+.menu ul li:nth-child(1){
+    background: rgba(255, 255, 255, .6);
+}
+.menu ul li:nth-child(2){
+    background: rgba(255, 255, 255, .5);
+}
+.menu ul li:nth-child(3){
+    background: rgba(255, 255, 255, .4);
+}
+.menu ul li:nth-child(4){
+    background: rgba(255, 255, 255, .3);
+}
