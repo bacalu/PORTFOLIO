@@ -206,7 +206,7 @@ body{
     text-align: left;
     vertical-align: top;
     display: flex;
-    background-image: url('arch/beau/2.png');
+    background-image: url('beau/2.png');
     background-size: cover;
     background-position: center;
           cursor: pointer;
@@ -229,7 +229,7 @@ body{
     text-align: left;
     vertical-align: top;
     display: flex;
-    background-image: url('arch/others/3.jpg');
+    background-image: url('others/3.jpg');
     background-size: cover;
     background-position: center;
           cursor: pointer;
@@ -252,7 +252,7 @@ body{
     text-align: left;
     vertical-align: top;
     display: flex;
-    background-image: url('arch/others/7.jpg');
+    background-image: url('others/7.jpg');
     background-size: cover;
     background-position: center;
           cursor: pointer;
@@ -275,7 +275,7 @@ body{
     text-align: left;
     vertical-align: top;
     display: flex;
-    background-image: url('arch/others/2.jpg');
+    background-image: url('others/2.jpg');
     background-size: cover;
     background-position: center;
           cursor: pointer;
