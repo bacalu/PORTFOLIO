@@ -1,0 +1,1020 @@
+*{
+    margin:0;
+    padding:0;
+    @font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #990F02;
+}
+.background-section{
+    width: 100%;
+    height: 100vh;
+    background-color: #990F02;
+    background-image: url(img/paginainceput.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner{
+    width: 85%;
+    margin-left: 680px;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #F9E4BC;
+    font-family: "Glacial Indifference";
+}
+.navbar ul li::after{
+    content: '';
+    height: 2px;
+    width: 0;
+    background: #F9E4BC;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.banner.slide-down{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    animation: slidedown .4s forwards;
+}
+@keyframes slidedown {
+    from{
+        top: -250px;
+    }
+    to{
+        top: 0;
+        box-shadow: 0 2px 8px 0 rgba(0,0,0,.2);
+    }
+
+}
+.skills{
+    position: relative;
+    margin-top: 700px;
+    margin-left: 100px;
+    color: #F9E4BC;
+    font-family: "Glacial Indifference";
+    font-size: 16px;
+}
+.element-stilizat{
+    position: relative;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #F9E4BC;
+    font-family: "Glacial Indifference"
+}
+.navbar1{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 10px;
+    width:100%;
+    padding: 35 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar1 ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar1 ul li a{
+    text-decoration: none;
+    color: #F9E4BC;
+    font-family: "Glacial Indifference";
+}
+.navbar1 ul li::after{
+    content: '';
+    height: 2px;
+    width: 0;
+    background: #F9E4BC;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.navbar1 ul li:hover::after{
+    width: 100%;
+}
+.contact{
+    position: absolute;
+    top: 2360px;
+}
+.exp{
+    position: relative;
+    color: #F9E4BC;
+    font-family: 'Coconat';
+    src: url(Coconat-BoldExt.otf); format('otf')
+    font-weight: bold;
+    font-style: normal;
+    font-size: 22px;
+}
+.projects{
+    position: absolute;
+    top: 140px;
+    left: 700px;
+    color: #F9E4BC;
+    font-family: 'Coconat';
+    src: url(Coconat-BoldExt.otf); format('otf')
+    font-weight: bold;
+    font-style: normal;
+    font-size: 22px;
+}
+.contest{
+    position: absolute;
+    top: 293px;
+    left: 1110px;
+    color: #F9E4BC;
+    font-family: 'Coconat';
+    src: url(Coconat-BoldExt.otf); format('otf')
+    font-weight: bold;
+    font-style: normal;
+    font-size: 22px;
+}
+.article{
+    position: absolute;
+    top: 1058px;
+    left: 1100px;
+    color: #F9E4BC;
+    font-family: 'Coconat';
+    src: url(Coconat-BoldExt.otf); format('otf')
+    font-weight: bold;
+    font-style: normal;
+    font-size: 22px;
+}
+.work{
+    position: relative;
+    margin-left: 100px;
+    color: #F9E4BC;
+    font-family: "Glacial Indifference";
+    font-size: 16px;
+}
+.btn{
+    padding: 20px;
+    margin: 10px;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    border-radius: 10px;
+    color: #F9E4BC;
+    font-family: "Glacial Indifference";
+    font-size: 16px;
+    text-align: left;
+    vertical-align: top;
+    display: flex;
+    background-image: url('img/fundalbuton2.jpg');
+    background-size: cover;
+    background-position: center;
+          cursor: pointer;
+          transition: background-color 0.3s, opacity 0.3s;
+}
+      .btn:hover {
+          opacity: 0.7;
+          text-decoration: underline;
+}
+.btn1{
+    padding: 20px;
+    margin: 10px;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    border-radius: 10px;
+    color: #990F02;
+    font-family: "Glacial Indifference";
+    font-size: 16px;
+    text-align: left;
+    vertical-align: top;
+    display: flex;
+    background-image: url('arch/beau/2.png');
+    background-size: cover;
+    background-position: center;
+          cursor: pointer;
+          transition: background-color 0.3s, opacity 0.9s;
+}
+      .btn1:hover {
+            opacity: 0.7;
+            text-decoration: underline;
+}
+.btn2{
+    padding: 20px;
+    margin: 10px;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    border-radius: 10px;
+    color: #990F02;
+    font-family: "Glacial Indifference";
+    font-size: 16px;
+    text-align: left;
+    vertical-align: top;
+    display: flex;
+    background-image: url('arch/others/3.jpg');
+    background-size: cover;
+    background-position: center;
+          cursor: pointer;
+          transition: background-color 0.3s, opacity 0.9s;
+}
+      .btn2:hover {
+            opacity: 0.7;
+            text-decoration: underline;
+}
+.btn3{
+    padding: 20px;
+    margin: 10px;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    border-radius: 10px;
+    color: #F9E4BC;
+    font-family: "Glacial Indifference";
+    font-size: 16px;
+    text-align: left;
+    vertical-align: top;
+    display: flex;
+    background-image: url('arch/others/7.jpg');
+    background-size: cover;
+    background-position: center;
+          cursor: pointer;
+          transition: background-color 0.3s, opacity 0.9s;
+}
+      .btn3:hover {
+            opacity: 0.7;
+            text-decoration: underline;
+}
+.btn4{
+    padding: 20px;
+    margin: 10px;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    border-radius: 10px;
+    color: #990F02;
+    font-family: "Glacial Indifference";
+    font-size: 16px;
+    text-align: left;
+    vertical-align: top;
+    display: flex;
+    background-image: url('arch/others/2.jpg');
+    background-size: cover;
+    background-position: center;
+          cursor: pointer;
+          transition: background-color 0.3s, opacity 0.9s;
+}
+      .btn4:hover {
+            opacity: 0.7;
+            text-decoration: underline;
+}
+.colabs{
+    position: absolute;
+    top: 994px;
+    left: 550px;
+    margin-left: 100px;
+    color: #20063B;
+    font-family: "Glacial Indifference";
+    font-size: 16px;
+}
+.cont{
+    position: absolute;
+    top: 1122px;
+    left: 1105px;
+    margin-left: 100px;
+    color: #20063B;
+    font-family: "Glacial Indifference";
+    font-size: 16px;
+}
+.art{
+    position: absolute;
+    top: 1885px;
+    left: 1100px;
+    margin-left: 100px;
+    color: #20063B;
+    font-family: "Glacial Indifference";
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: 'Coconat';
+    src: url(Coconat-BoldExt.otf); format('otf')
+    font-weight: bold;
+    font-style: normal;
+}
+.home{
+    width: 50px;
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    color: #60000e;
+    font-family: "Glacial Indifference";
+    font-size: 16px;
+}
+.archi{
+    width: 120px;
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    color: #60000e;
+    font-family: "Glacial Indifference";
+    font-size: 16px;
+}
+.design{
+    width: 120px;
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    color: #60000e;
+    font-family: "Glacial Indifference";
+    font-size: 16px;
+}
+.photos{
+    width: 50px;
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    color: #60000e;
+    font-family: "Glacial Indifference";
+    font-size: 16px;
+}
+.content{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top:75px;
+    left: 10px;
+}
+.paragraf{
+    position: absolute;
+    top: -10px;
+    left:828px;
+    width: 510px;
+    height: 200px;
+    margin-bottom: 3px;
+    font-size: 15px;
+    padding: 35px;
+    text-align: center;
+    align-content: center;
+}
+.paragraf-titlu{
+    color: #F9E4BC;
+    font-family: "Glacial Indifference";
+}
+.paragraf-text{
+    color: #F9E4BC;
+    font-family: "Glacial Indifference";
+
+}
+.paragraf-text2{
+    position: absolute;
+    top: 548px;
+    left:828px;
+    width: 510px;
+    height: 200px;
+    margin-bottom: 3px;
+    font-size: 15px;
+    padding: 35px;
+    text-align: center;
+    align-content: center;
+    color: #F9E4BC;
+    font-family: "Glacial Indifference";
+}
+.box1{
+            padding: 20px;
+            margin: 10px;
+            width: 460px;
+            height: 50px;;
+            text-align: center;
+            border-radius: 10px;
+            background-image: url('img/fundalbuton2.jpg');
+            background-size: cover;
+            background-position: top;
+            background-position: center;
+}
+.box2{
+    padding: 20px;
+    margin: 10px;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    border-radius: 10px;
+    background-image: url('img/fundal.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.poza0{
+    position: absolute;
+    top: 95px;
+    left:100px;
+    width: 40%;
+    height:800px;
+}
+.poza1{
+    position: absolute;
+    top: 95px;
+    left:800px;
+    width: 40%;
+    height:500px;
+}
+.poza2{
+    position: absolute;
+    top: 602px;
+    left:800px;
+    width: 40%;
+    height:500px;
+}
+.poza3{
+    position: absolute;
+    top: 1602px;
+    left:100px;
+    width: 40%;
+    height:800px;
+}
+.poza4{
+    position: absolute;
+    top: 1110px;
+    left:800px;
+    width: 40%;
+    height:500px;
+}
+.poza5{
+    position: absolute;
+    top: 2500px;
+    left:400px;
+    width: 50%;
+    height:850px;
+}
+.poza6{
+    position: absolute;
+    top: 3200px;
+    left:100px;
+    width: 28%;
+    height:500px;
+}
+.poza7{
+    position: absolute;
+    top: 3200px;
+    left:525px;
+    width: 28%;
+    height:500px;
+}
+.poza8{
+    position: absolute;
+    top: 3200px;
+    left:950px;
+    width: 28%;
+    height:500px;
+}
+.poza9{
+    position: absolute;
+    top: 4000px;
+    left:1000px;
+    width: 28%;
+    height:500px;
+}.poza10{
+    position: absolute;
+    top: 3800px;
+    left:100px;
+    width: 28%;
+    height:500px;
+}.poza11{
+    position: absolute;
+    top: 4350px;
+    left:100px;
+    bottom: 200px;
+    width: 28%;
+    height:500px;
+}
+.gd0{
+    position: absolute;
+    top: 95px;
+    left:100px;
+    width: 44%;
+    height:820px;
+}
+.gd1{
+    position: absolute;
+    top: 1400px;
+    left:880px;
+    width: 30%;
+    height:400px;
+}
+.gd7{
+    position: absolute;
+    top: 1820px;
+    left:880px;
+    width: 30%;
+    height:400px;
+}
+.gd2{
+    position: absolute;
+    top: 500px;
+    left:800px;
+    width: 40%;
+    height:820px;
+}
+.gd3{
+    position: absolute;
+    top: 1400px;
+    left:200px;
+    width: 50%;
+    height:1200px;
+}
+.gd3{
+    position: absolute;
+    top: 1400px;
+    left:100px;
+    width: 40%;
+    height:820px;
+}.gd4{
+    position: absolute;
+    top: 2300px;
+    left:730px;
+    width: 40%;
+    height:820px;
+}.gd5{
+    position: absolute;
+    top: 3180px;
+    left:60px;
+    width: 30%;
+    height:720px;
+}.gd6{
+    position: absolute;
+    top: 3180px;
+    left:520px;
+    width: 30%;
+    height:720px;
+}
+.gd9{
+    position: absolute;
+    top: 3970px;
+    left:60px;
+    width: 30%;
+    height:400px;
+}
+.gd10{
+    position: absolute;
+    top: 3970px;
+    left:980px;
+    width: 30%;
+    height:400px;
+}
+.gd11{
+    position: absolute;
+    top: 3970px;
+    left:520px;
+    width: 30%;
+    height:400px;
+}
+.gd8{
+    position: absolute;
+    top: 4440px;
+    left:520px;
+    width: 50%;
+    height:520px;
+}
+*!--
+.progress{
+    width: 120px;
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    color: #F9E4BC;
+    font-family: "Glacial Indifference";
+    font-size: 20px;
+}
+.leftside .menu{
+    height: 100vh;
+    width: 100%;
+}
+.leftside{
+    width: 80%;
+}
+@font-face {
+    font-family: 'Coconat';
+    src: url('Coconat-BoldExt.otf') format('oft');
+    font-weight: bold;
+    font-style: normal;
+}
+.CONCEPTUAL {
+    position: relative;
+    left: 100px;
+    color: #F9E4BC;
+    font-family: 'Coconat';
+    font-weight: bold;
+    font-style: normal;
+}
+
+.RESTORATION {
+    position: absolute;
+    top: 1216px;
+    left: 84px;
+    display: flex;
+    color: #F9E4BC;
+    font-family: 'Coconat';
+    font-weight: bold;
+    font-style: normal;
+
+}
+.INTERIORDESIGN {
+    position: absolute;
+    top: 6900px;
+    left: 84px;
+    display: flex;
+    color: #F9E4BC;
+    font-family: 'Coconat';
+    font-weight: bold;
+    font-style: normal;
+
+}
+.OTHERS {
+    position: absolute;
+    top: 8380px;
+    left: 84px;
+    display: flex;
+    color: #F9E4BC;
+    font-family: 'Coconat';
+    font-weight: bold;
+    font-style: normal;
+
+}
+.c1{
+    position: absolute;
+    top: 605px;
+    left:100px;
+}
+.a{
+    position: absolute;
+    top: 680px;
+    width: 120px;
+    display: inline-block;
+    white-space: nowrap;
+    color: #F9E4BC;
+    font-family: "Glacial Indifference";
+    font-size: 20px;
+}
+.b{
+    position: absolute;
+    top: 750px;
+    width: 120px;
+    display: inline-block;
+    white-space: nowrap;
+    color: #F9E4BC;
+    font-family: "Glacial Indifference";
+    font-size: 15px;
+
+}
+.c{
+    position: absolute;
+    top: 1300px;
+    width: 120px;
+    display: inline-block;
+    white-space: nowrap;
+    color: #F9E4BC;
+    font-family: "Glacial Indifference";
+    font-size: 20px;
+
+}
+.d{
+    position: absolute;
+    top: 1320px;
+    width: 120px;
+    display: inline-block;
+    white-space: nowrap;
+    color: #F9E4BC;
+    font-family: "Glacial Indifference";
+    font-size: 15px;
+}
+.e{
+    position: absolute;
+    top: 3920px;
+    left: 799px;
+    width: 120px;
+    display: inline-block;
+    white-space: nowrap;
+    color: #F9E4BC;
+    font-family: "Glacial Indifference";
+    font-size: 20px;
+}
+.f{
+    position: absolute;
+    top: 3960px;
+    left: 799px;
+    width: 120px;
+    display: block;
+    white-space: nowrap;
+    color: #F9E4BC;
+    font-family: "Glacial Indifference";
+    font-size: 15px;
+}
+.g{
+    position: absolute;
+    top: 8460px;
+    left: 73px;
+    width: 120px;
+    display: block;
+    white-space: nowrap;
+    color: #F9E4BC;
+    font-family: "Glacial Indifference";
+    font-size: 20px;
+}
+.h{
+    position: absolute;
+    top: 9360px;
+    left: 73px;
+    width: 120px;
+    display: block;
+    white-space: nowrap;
+    color: #F9E4BC;
+    font-family: "Glacial Indifference";
+    font-size: 20px;
+}
+.i{
+    position: absolute;
+    top: 9420px;
+    left: 73px;
+    width: 120px;
+    display: block;
+    white-space: nowrap;
+    color: #F9E4BC;
+    font-family: "Glacial Indifference";
+    font-size: 15px;
+}
+
+.j{
+    position: absolute;
+    top: 10720px;
+    left: 73px;
+    width: 120px;
+    display: block;
+    white-space: nowrap;
+    color: #F9E4BC;
+    font-family: "Glacial Indifference";
+    font-size: 20px;
+}
+.k{
+    position: absolute;
+    top: 10750px;
+    left: 73px;
+    width: 120px;
+    display: block;
+    white-space: nowrap;
+    color: #F9E4BC;
+    font-family: "Glacial Indifference";
+    font-size: 15px;
+}
+.menu {
+           position: fixed;
+           right: 0;
+           top: 100px;
+           width: 220px;
+           padding: 10px;
+           box-sizing: border-box;
+           font-family: "Glacial Indifference";
+           font-size: 20px;
+       }
+       .menu ul {
+           list-style: none;
+           padding: 0;
+           margin: 0;
+       }
+       .menu ul li {
+           margin: 25px 0;
+       }
+       .menu ul li button {
+           width: 100%;  /* Ocupă toată lățimea listei */
+           padding: 10px 20px;
+           border: none;
+           cursor: pointer;
+           font-size: 20px;
+           font-family: "Glacial Indifference";
+           color: #990F02;
+           background: rgba(255, 255, 255, .1); /* Stil inițial */
+           transition: background 0.3s ease;
+       }
+       .menu ul li:nth-child(1) button {
+           background: rgba(255, 255, 255, .6);
+       }
+       .menu ul li:nth-child(2) button {
+           background: rgba(255, 255, 255, .5);
+       }
+       .menu ul li:nth-child(3) button {
+           background: rgba(255, 255, 255, .4);
+       }
+       .menu ul li:nth-child(4) button {
+           background: rgba(255, 255, 255, .3);
+       }
+       .menu ul li button:hover {
+           background: rgba(255, 255, 255, .8); /* Efect hover */
+       }
+
+/* Efect de hover pe imagini */
+.gallery img:hover {
+    transform: scale(1.1);
+}
+.gallery-item{
+    position: absolute;
+    top: 300px;
+    display: flex;
+}
+
+.imagine-large{
+    position: absolute;
+    top: 130px;
+    display: flex;
+    width: 900px;
+    height: 500px; /* Dimensiune mare pentru imagine */
+    object-fit: cover; /* Poziționează și redimensionează imaginea fără a distorsiona */
+}
+.imagine-1{
+    position: absolute;
+    top: 10px;
+    left: 1000px;
+    display: flex;
+    width: 600px;
+    height: 300px; /* Dimensiune mare pentru imagine */
+    object-fit: cover; /* Poziționează și redimensionează imaginea fără a distorsiona */
+}
+.imagine-2{
+    position: absolute;
+    top: 340px;
+    left: 1000px;
+    display: flex;
+    width: 600px;
+    height: 300px; /* Dimensiune mare pentru imagine */
+    object-fit: cover; /* Poziționează și redimensionează imaginea fără a distorsiona */
+}
+.imagine-3{
+    position: absolute;
+    top: 670px;
+    left: 1000px;
+    display: flex;
+    width: 600px;
+    height: 300px; /* Dimensiune mare pentru imagine */
+    object-fit: cover; /* Poziționează și redimensionează imaginea fără a distorsiona */
+}
+.siracusa1{
+    position: absolute;
+    top: 1110px;
+    display: flex;
+    width: 700px;
+    height: 238px; /* Dimensiune mare pentru imagine */
+    object-fit: cover;
+}
+.siracusa2{
+    position: absolute;
+    top: 1380px;
+    display: flex;
+    width: 400px;
+    height: 400px; /* Dimensiune mare pentru imagine */
+    object-fit: cover;
+}
+.siracusa3{
+    position: absolute;
+    top: 1820px;
+    display: flex;
+    width: 400px;
+    height: 400px; /* Dimensiune mare pentru imagine */
+    object-fit: cover;
+}
+.siracusa4{
+    position: absolute;
+    top: 2260px;
+    display: flex;
+    width: 400px;
+    height: 400px; /* Dimensiune mare pentru imagine */
+    object-fit: cover;
+}
+
+.siracusa5 {
+            text-align: center; /* Centrare opțională */
+            position: absolute;
+            top: 2248px;
+            left: 800PX;
+}
+        .siracusa5 img {
+            width: 700px; /* Ajustează dimensiunea */
+            height: auto; /* Menține proporțiile */
+            display: block; /* Evită spațiile inutile */
+            margin: 10px auto; /* Adaugă spațiere între imagini */
+}
+.an4 {
+            text-align: center; /* Centrare opțională */
+            position: absolute;
+            top: 3548px;
+
+}
+.an4 img {
+            width: 700px; /* Ajustează dimensiunea */
+            height: auto; /* Menține proporțiile */
+            display: block; /* Evită spațiile inutile */
+            margin: 10px auto; /* Adaugă spațiere între imagini */
+}
+.det {
+            text-align: center; /* Centrare opțională */
+            position: absolute;
+            top: 4048px;
+            left: 800px;
+
+}
+.det img {
+            width: 500px; /* Ajustează dimensiunea */
+            height: auto; /* Menține proporțiile */
+            display: block; /* Evită spațiile inutile */
+            margin: 30px auto; /* Adaugă spațiere între imagini */
+}
+.randari {
+            text-align: center; /* Centrare opțională */
+            position: absolute;
+            top: 6048px;
+            left: 800px;
+
+}
+.randari img {
+            width: 700px; /* Ajustează dimensiunea */
+            height: auto; /* Menține proporțiile */
+            display: block; /* Evită spațiile inutile */
+            margin: 30px auto; /* Adaugă spațiere între imagini */
+}
+.INT {
+            text-align: center; /* Centrare opțională */
+            position: absolute;
+            top: 6948px;
+}
+.INT img {
+            width: 700px; /* Ajustează dimensiunea */
+            height: auto; /* Menține proporțiile */
+            display: block; /* Evită spațiile inutile */
+            margin: 30px auto; /* Adaugă spațiere între imagini */
+}
+.INT1{
+    position: absolute;
+    top: 7790px;
+    display: flex;
+    width: 550px;
+    height: 550px; /* Dimensiune mare pentru imagine */
+    object-fit: cover;
+}
+.concurs{
+    position: absolute;
+    top: 8590px;
+    display: flex;
+    width: 700px;
+    height: 700px; /* Dimensiune mare pentru imagine */
+    object-fit: cover;
+}
+.concurs1{
+    position: absolute;
+    top: 8590px;
+    left: 800px;
+    display: flex;
+    width: 600px;
+    height: 600px; /* Dimensiune mare pentru imagine */
+    object-fit: cover;
+}
+.summer {
+    position: absolute;
+    top: 9490px;
+           display: grid;
+           grid-template-columns: repeat(2, 1fr); /* 2 coloane egale */
+           grid-gap: 10px; /* Spațiu între imagini */
+           width: 50%; /* Ajustează lățimea după nevoie */
+           margin: auto; /* Centrează galeria */
+       }
+       .summer img {
+           width: 100%; /* Ocupă toată celula */
+           height: auto; /* Păstrează proporțiile */
+           border-radius: 10px; /* Colțuri rotunjite opționale */
+}
+.summer1 {
+    position: absolute;
+    top: 10790px;
+    left: 380px;
+
+       }
+       .summer1 img {
+           width: 700px; /* Ajustează dimensiunea */
+           height: auto; /* Menține proporțiile */
+           display: inline-block; /* Evită spațiile inutile */
+           margin: 30px auto; /* Adaugă spațiere între imagini */
+       }
