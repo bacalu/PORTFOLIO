@@ -615,9 +615,19 @@ body{
     font-weight: bold;
     font-style: normal;
 }
-.CONCEPTUAL {
+.GRADUATION {
     position: relative;
     left: 100px;
+    color: #F9E4BC;
+    font-family: 'Coconat';
+    font-weight: bold;
+    font-style: normal;
+}
+.CONCEPTUAL {
+    position: absolute;
+    top: 4416px;
+    left: 84px;
+    display: flex;
     color: #F9E4BC;
     font-family: 'Coconat';
     font-weight: bold;
@@ -626,7 +636,7 @@ body{
 
 .RESTORATION {
     position: absolute;
-    top: 1216px;
+    top: 5816px;
     left: 84px;
     display: flex;
     color: #F9E4BC;
@@ -637,7 +647,7 @@ body{
 }
 .INTERIORDESIGN {
     position: absolute;
-    top: 6900px;
+    top: 12300px;
     left: 84px;
     display: flex;
     color: #F9E4BC;
@@ -648,7 +658,7 @@ body{
 }
 .OTHERS {
     position: absolute;
-    top: 8380px;
+    top: 14180px;
     left: 84px;
     display: flex;
     color: #F9E4BC;
@@ -664,7 +674,7 @@ body{
 }
 .a{
     position: absolute;
-    top: 680px;
+    top: 5080px;
     width: 120px;
     display: inline-block;
     white-space: nowrap;
@@ -672,9 +682,23 @@ body{
     font-family: "Glacial Indifference";
     font-size: 20px;
 }
+.grad{
+    position: absolute;
+    top: 98px;
+    left:728px;
+    width: 610px;
+    height: 200px;
+    margin-bottom: 3px;
+    font-size: 15px;
+    padding: 35px;
+    text-align: center;
+    align-content: center;
+    color: #F9E4BC;
+    font-family: "Glacial Indifference";
+}
 .b{
     position: absolute;
-    top: 750px;
+    top: 5150px;
     width: 120px;
     display: inline-block;
     white-space: nowrap;
@@ -685,7 +709,7 @@ body{
 }
 .c{
     position: absolute;
-    top: 1300px;
+    top: 5880px;
     width: 120px;
     display: inline-block;
     white-space: nowrap;
@@ -696,7 +720,7 @@ body{
 }
 .d{
     position: absolute;
-    top: 1320px;
+    top: 5920px;
     width: 120px;
     display: inline-block;
     white-space: nowrap;
@@ -706,7 +730,7 @@ body{
 }
 .e{
     position: absolute;
-    top: 3920px;
+    top: 8620px;
     left: 799px;
     width: 120px;
     display: inline-block;
@@ -717,7 +741,7 @@ body{
 }
 .f{
     position: absolute;
-    top: 3960px;
+    top: 8660px;
     left: 799px;
     width: 120px;
     display: block;
@@ -728,7 +752,7 @@ body{
 }
 .g{
     position: absolute;
-    top: 8460px;
+    top: 14260px;
     left: 73px;
     width: 120px;
     display: block;
@@ -739,7 +763,7 @@ body{
 }
 .h{
     position: absolute;
-    top: 9360px;
+    top: 15360px;
     left: 73px;
     width: 120px;
     display: block;
@@ -750,7 +774,7 @@ body{
 }
 .i{
     position: absolute;
-    top: 9420px;
+    top: 15420px;
     left: 73px;
     width: 120px;
     display: block;
@@ -762,7 +786,7 @@ body{
 
 .j{
     position: absolute;
-    top: 10720px;
+    top: 16720px;
     left: 73px;
     width: 120px;
     display: block;
@@ -773,7 +797,7 @@ body{
 }
 .k{
     position: absolute;
-    top: 10750px;
+    top: 16750px;
     left: 73px;
     width: 120px;
     display: block;
@@ -837,9 +861,87 @@ body{
     display: flex;
 }
 
-.imagine-large{
+.graduation-1{
     position: absolute;
     top: 130px;
+    display: flex;
+    width: 900px;
+    height: 500px; /* Dimensiune mare pentru imagine */
+    object-fit: cover;
+}
+.graduation-plan0{
+    position: absolute;
+    top: 700px;
+    left: 200px;
+    display: flex;
+    width: 900px;
+    height: 500px; /* Dimensiune mare pentru imagine */
+    object-fit: cover;
+}
+.graduation-plan1{
+    position: absolute;
+    top: 1210px;
+    left: 200px;
+    display: flex;
+    width: 1100px;
+    height: 500px; /* Dimensiune mare pentru imagine */
+    object-fit: cover;
+}
+.graduation-scheme{
+    position: absolute;
+    top: 1770px;
+    display: flex;
+    width: 100px;
+    height: 100px; /* Dimensiune mare pentru imagine */
+    object-fit: cover;
+}
+.graduation-sectiune{
+    position: absolute;
+    top: 2000px;
+    left: 200px;
+    display: flex;
+    width: 900px;
+    height: 500px; /* Dimensiune mare pentru imagine */
+    object-fit: cover;
+}
+.graduation-structura{
+    position: absolute;
+    top: 2530px;
+    left: 200px;
+    display: flex;
+    width: 900px;
+    height: 500px;  /* Dimensiune mare pentru imagine */
+    object-fit: cover;
+}
+.detaliu{
+    position: absolute;
+    top: 3130px;
+    left: 200px;
+    display: flex;
+    width: 300px;
+    height: 500px; /* Dimensiune mare pentru imagine */
+    object-fit: cover;
+}
+.axoint{
+    position: absolute;
+    top: 3700px;
+    display: flex;
+    width: 300px;
+    height: 300px; /* Dimensiune mare pentru imagine */
+    object-fit: cover;
+}
+.axoint1{
+    position: absolute;
+    top: 3800px;
+    left: 500px;
+    display: flex;
+    width: 500px;
+    height: 500px; /* Dimensiune mare pentru imagine */
+    object-fit: cover;
+}
+.imagine-large{
+    position: absolute;
+    top: 4500px;
     display: flex;
     width: 900px;
     height: 500px; /* Dimensiune mare pentru imagine */
@@ -847,7 +949,7 @@ body{
 }
 .imagine-1{
     position: absolute;
-    top: 10px;
+    top: 4400px;
     left: 1000px;
     display: flex;
     width: 600px;
@@ -856,7 +958,7 @@ body{
 }
 .imagine-2{
     position: absolute;
-    top: 340px;
+    top: 4725px;
     left: 1000px;
     display: flex;
     width: 600px;
@@ -865,7 +967,7 @@ body{
 }
 .imagine-3{
     position: absolute;
-    top: 670px;
+    top: 5050px;
     left: 1000px;
     display: flex;
     width: 600px;
@@ -874,7 +976,7 @@ body{
 }
 .siracusa1{
     position: absolute;
-    top: 1110px;
+    top: 6510px;
     display: flex;
     width: 700px;
     height: 238px; /* Dimensiune mare pentru imagine */
@@ -882,7 +984,7 @@ body{
 }
 .siracusa2{
     position: absolute;
-    top: 1380px;
+    top: 6500px;
     display: flex;
     width: 400px;
     height: 400px; /* Dimensiune mare pentru imagine */
@@ -890,7 +992,7 @@ body{
 }
 .siracusa3{
     position: absolute;
-    top: 1820px;
+    top: 6000px;
     display: flex;
     width: 400px;
     height: 400px; /* Dimensiune mare pentru imagine */
@@ -898,17 +1000,17 @@ body{
 }
 .siracusa4{
     position: absolute;
-    top: 2260px;
+    top: 6960px;
     display: flex;
     width: 400px;
     height: 400px; /* Dimensiune mare pentru imagine */
     object-fit: cover;
 }
 
-.siracusa5 {
+.siracusa5{
             text-align: center; /* Centrare opțională */
             position: absolute;
-            top: 2248px;
+            top: 7000px;
             left: 800PX;
 }
         .siracusa5 img {
@@ -920,7 +1022,7 @@ body{
 .an4 {
             text-align: center; /* Centrare opțională */
             position: absolute;
-            top: 3548px;
+            top: 8648px;
 
 }
 .an4 img {
@@ -932,7 +1034,7 @@ body{
 .det {
             text-align: center; /* Centrare opțională */
             position: absolute;
-            top: 4048px;
+            top: 9548px;
             left: 800px;
 
 }
@@ -945,7 +1047,7 @@ body{
 .randari {
             text-align: center; /* Centrare opțională */
             position: absolute;
-            top: 6048px;
+            top: 11048px;
             left: 800px;
 
 }
@@ -958,7 +1060,7 @@ body{
 .INT {
             text-align: center; /* Centrare opțională */
             position: absolute;
-            top: 6948px;
+            top: 12380px;
 }
 .INT img {
             width: 700px; /* Ajustează dimensiunea */
@@ -968,7 +1070,7 @@ body{
 }
 .INT1{
     position: absolute;
-    top: 7790px;
+    top: 13390px;
     display: flex;
     width: 550px;
     height: 550px; /* Dimensiune mare pentru imagine */
@@ -976,7 +1078,7 @@ body{
 }
 .concurs{
     position: absolute;
-    top: 8590px;
+    top: 14490px;
     display: flex;
     width: 700px;
     height: 700px; /* Dimensiune mare pentru imagine */
@@ -984,7 +1086,7 @@ body{
 }
 .concurs1{
     position: absolute;
-    top: 8590px;
+    top: 14490px;
     left: 800px;
     display: flex;
     width: 600px;
@@ -993,7 +1095,7 @@ body{
 }
 .summer {
     position: absolute;
-    top: 9490px;
+    top: 15490px;
            display: grid;
            grid-template-columns: repeat(2, 1fr); /* 2 coloane egale */
            grid-gap: 10px; /* Spațiu între imagini */
@@ -1007,7 +1109,7 @@ body{
 }
 .summer1 {
     position: absolute;
-    top: 10790px;
+    top: 16790px;
     left: 380px;
 
        }
@@ -1016,4 +1118,4 @@ body{
            height: auto; /* Menține proporțiile */
            display: inline-block; /* Evită spațiile inutile */
            margin: 30px auto; /* Adaugă spațiere între imagini */
-       }
+       }-->
