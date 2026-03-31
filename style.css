@@ -205,7 +205,7 @@ body{
     text-align: left;
     vertical-align: top;
     display: flex;
-    background-image: url('beau/2.png');
+    background-image: url('img/2.png');
     background-size: cover;
     background-position: center;
           cursor: pointer;
@@ -228,7 +228,7 @@ body{
     text-align: left;
     vertical-align: top;
     display: flex;
-    background-image: url('others/3.jpg');
+    background-image: url('img/3.jpg');
     background-size: cover;
     background-position: center;
           cursor: pointer;
@@ -251,7 +251,7 @@ body{
     text-align: left;
     vertical-align: top;
     display: flex;
-    background-image: url('others/9.jpg');
+    background-image: url('img/9.jpg');
     background-size: cover;
     background-position: center;
           cursor: pointer;
@@ -274,7 +274,7 @@ body{
     text-align: left;
     vertical-align: top;
     display: flex;
-    background-image: url('others/2.jpg');
+    background-image: url('img/2.jpg');
     background-size: cover;
     background-position: center;
           cursor: pointer;
